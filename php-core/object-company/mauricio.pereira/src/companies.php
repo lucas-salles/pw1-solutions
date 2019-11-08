@@ -8,6 +8,7 @@ class Companies
   public function add($company)
   {
     $this->companies[] = $company;
+    sort($this->companies);
   }
 
   public function foundedAfter($year)
@@ -40,6 +41,6 @@ class Companies
       },
       $this->companies
     );
-    return join("\n", $strings);
+    return join("\r\n", $strings);
   }
 }

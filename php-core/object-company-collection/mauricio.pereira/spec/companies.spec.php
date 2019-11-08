@@ -18,18 +18,18 @@ describe('Company Tools', function () {
     expect((string)$this->amazon)->toBe('Amazon.........1994');
   });
 
-  xit('show companies string', function () {
+  it('show companies string', function () {
     $expected = "Alphabet Inc...2015
 Amazon.........1994
 Facebook.......2004";
     expect((string)$this->companies)->toBe($expected);
   });
 
-  xit('show founded after some year', function () {
+  it('show founded after some year', function () {
     expect($this->companies->foundedAfter(2000))->toBe([$this->alphabet, $this->facebook]);
   });
 
-  xit('show founded before some year', function () {
+  it('show founded before some year', function () {
     expect($this->companies->foundedBefore(2000))->toBe([$this->amazon]);
   });
 });
