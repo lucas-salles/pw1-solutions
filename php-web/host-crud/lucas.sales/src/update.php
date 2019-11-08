@@ -4,10 +4,12 @@
         header('Location: index.html');
     require_once('hostcrud.php');
 
-    $nome = $_POST['nome'];
-    $address = $_POST['address'];
-    $id = $_POST['id'];
-    $crud = new HostCrud();
-    $crud->update($nome, $address, $id);
+    $nome = $_POST['nome'] ?? null;
+    $address = $_POST['address'] ?? null;
+    $id = $_POST['id'] ?? null;
+    if ($nome != null && $address != null && $id != null) {
+        $crud = new HostCrud();
+        $crud->update($nome, $address, $id);
+    }
     header('location:home.php');
 ?>

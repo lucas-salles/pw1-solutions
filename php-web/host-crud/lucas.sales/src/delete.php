@@ -4,8 +4,10 @@
         header('Location: index.html');
     require_once('hostcrud.php');
 
-    $id = $_POST['id'];
-    $crud = new HostCrud();
-    $crud->delete($id);
+    $id = $_POST['id'] ?? null;
+    if ($id != null) {
+        $crud = new HostCrud();
+        $crud->delete($id);
+    }
     header('location:home.php');
 ?>
