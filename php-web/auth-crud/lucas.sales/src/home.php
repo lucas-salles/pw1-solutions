@@ -23,41 +23,60 @@
             <a class="nav-item nav-link active" id="nav-adicionar-tab" data-toggle="tab" href="#nav-adicionar" role="tab" aria-controls="nav-adicionar" aria-selected="true">Adicionar</a>
             <a class="nav-item nav-link" id="nav-alterar-tab" data-toggle="tab" href="#nav-alterar" role="tab" aria-controls="nav-alterar" aria-selected="false">Alterar</a>
             <a class="nav-item nav-link" id="nav-deletar-tab" data-toggle="tab" href="#nav-deletar" role="tab" aria-controls="nav-deletar" aria-selected="false">Deletar</a>
-            <a class="nav-item nav-link" id="nav-ver-tab" data-toggle="tab" href="#nav-ver" role="tab" aria-controls="nav-ver" aria-selected="false">Ver Todos</a>
+            <a class="nav-item nav-link" id="nav-listar-tab" data-toggle="tab" href="#nav-listar" role="tab" aria-controls="nav-listar" aria-selected="false">Listar Todos</a>
+            <a class="nav-item nav-link" href="logout.php" role="tab" aria-controls="nav-listar" aria-selected="false">Sair</a>
         </div>
     </nav>
     <div class="tab-content" id="nav-tabContent">
-        <div class="tab-pane fade show active" id="nav-adicionar" role="tabpanel" aria-labelledby="nav-adicionar-tab">
-            <h2>Adicionar</h2>
-            <form action="create.php" method="post">
-                <label for="nome">Nome:</label>
-                <input type="text" name="nome" placeholder="nome">
-                <label for="address">Address:</label>
-                <input type="text" name="address" placeholder="address">
-                <input class="btn btn-outline-secondary" class="btn btn-outline-secondary" type="submit" value="Adicionar">
-            </form>
+        <div class="tab-pane fade show active" id="nav-adicionar" role="tabpanel" aria-labelledby="nav-adicionar-tab">          
+            <div class="box">
+                <form action="create.php" method="post">
+                    <h1>Adicionar</h1>
+                    <div class="form-group">
+                        <label for="nome">Nome:</label>
+                        <input type="text" class="form-control" name="nome" id="nome" aria-describedby="nomeHelp" placeholder="Nome">
+                    </div>
+                    <div class="form-group">
+                        <label for="address">Address:</label>
+                        <input type="address" class="form-control" name="address" id="address" placeholder="Address">
+                    </div>
+                    <input type="submit" class="btn btn-primary" value="Adicionar">
+                </form>
+            </div>
         </div>
         <div class="tab-pane fade" id="nav-alterar" role="tabpanel" aria-labelledby="nav-alterar-tab">
-            <h2>Alterar</h2>
-            <form action="update.php" method="post">
-                <label for="nome">Nome:</label>
-                <input type="text" name="nome" placeholder="nome">
-                <label for="address">Address:</label>
-                <input type="text" name="address" placeholder="address">
-                <label for="id">id:</label>
-                <input type="text" name="id" placeholder="id">
-                <input class="btn btn-outline-secondary" type="submit" value="Alterar">
-            </form>
+            <div class="box">
+                <form action="update.php" method="post">
+                    <h1>Alterar</h1>
+                    <div class="form-group">
+                        <label for="nome">Nome:</label>
+                        <input type="text" class="form-control" name="nome" id="nome" aria-describedby="nomeHelp" placeholder="Nome">
+                    </div>
+                    <div class="form-group">
+                        <label for="address">Address:</label>
+                        <input type="address" class="form-control" name="address" id="address" placeholder="Address">
+                    </div>
+                    <div class="form-group">
+                        <label for="id">id:</label>
+                        <input type="id" class="form-control" name="id" id="id" placeholder="id">
+                    </div>
+                    <input type="submit" class="btn btn-primary" value="Alterar">
+                </form>
+            </div>
         </div>
         <div class="tab-pane fade" id="nav-deletar" role="tabpanel" aria-labelledby="nav-deletar-tab">
-            <h2>Deletar</h2>
-            <form action="delete.php" method="post">
-                <label for="id">id:</label>
-                <input type="text" name="id" placeholder="id">
-                <input class="btn btn-outline-secondary" type="submit" value="Deletar">
-            </form>
+            <div class="box">
+                <form action="delete.php" method="post">
+                    <h1>Deletar</h1>
+                    <div class="form-group">
+                        <label for="id">id:</label>
+                        <input type="id" class="form-control" name="id" id="id" placeholder="id">
+                    </div>
+                    <input type="submit" class="btn btn-primary" value="Deletar">
+                </form>
+            </div>
         </div>
-        <div class="tab-pane fade" id="nav-ver" role="tabpanel" aria-labelledby="nav-ver-tab">
+        <div class="tab-pane fade" id="nav-listar" role="tabpanel" aria-labelledby="nav-listar-tab">
             <?php if (sizeof($hosts) != 0): ?>
                 <table class="table table-striped">
                     <thead>
@@ -78,13 +97,12 @@
                     </tbody>
                 </table>
             <?php else: ?>
-                <h2>Lista vazia</h2>
+                <div class="box">
+                    <h2>Lista vazia</h2>
+                </div>
             <?php endif ?>
         </div>
     </div>
-
-    
-    <a href="logout.php" class="sair btn btn-primary">Sair</a>
 
 
 
