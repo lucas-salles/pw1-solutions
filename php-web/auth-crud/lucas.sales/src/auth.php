@@ -7,7 +7,7 @@
     if ($login != null && $password != null) {
         $db = new UserDatabase();
         $user = $db->read($login);
-        if ($user != null && password_verify("$password"."$login", $user['password'])) {
+        if ($user != null && password_verify($password.$login, $user['password'])) {
             $_SESSION['auth'] = true;
             header('location: home.php');
         } else

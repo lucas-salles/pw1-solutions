@@ -27,9 +27,5 @@ CREATE TABLE `users` (
 INSERT INTO `users`
   (`login`, `password`)
 VALUES
-  ('luiz', '$2y$10$junqDoWA.P5pccmUpcZ83uF1DzdJiOEtJ40wpk1a7U0fzZ8qqioou');
-
-INSERT INTO `users`
-  (`login`, `password`)
-VALUES
+  ('luiz', '$2y$10$junqDoWA.P5pccmUpcZ83uF1DzdJiOEtJ40wpk1a7U0fzZ8qqioou'),
   ('lucas', '$2y$10$mEn5XV9ZUFZDIMTL0ivwCuSS7YZ5XtJK4gtAOIs8k8nUqGkiN.WVm');
