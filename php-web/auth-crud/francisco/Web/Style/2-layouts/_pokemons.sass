@@ -1,0 +1,121 @@
+.poke-max-card
+    //s
+    min-width: 200px
+    min-height: 250px
+    //c
+    border: .5px solid rgba(227, 227, 227, .7)
+    //l
+    margin: 10px auto
+    position: relative
+    display: flex
+    justify-content: center
+    align-items: center
+
+ 
+.poke-max-card img
+    //s
+    width: 170px
+    height: 170px
+    //l
+    margin: 0 auto
+    position: absolute
+
+.poke-max-card div
+    //s
+    width: 100px
+    padding: 3px
+    //c
+    background: black
+    color: white
+    opacity: 0
+    //l
+    position: absolute
+
+.poke-max-card .status
+    //s
+    width: 95%
+    //c
+    opacity: 0
+    //l
+    position: absolute
+    bottom: 30px
+    display: grid
+    grid-template-areas: "hp vel" "att def" "spAtt spDef"
+
+.poke-max-card .status li
+
+    //c
+    background: black
+    color: white
+    //l
+    margin: 3px
+
+.poke-max-card .status li:first-child
+    grid-area: hp
+
+.poke-max-card .status li:nth-child(2)
+    grid-area: att
+
+.poke-max-card .status li:nth-child(3)
+    grid-area: def
+
+.poke-max-card .status li:nth-child(4)
+    grid-area: spAtt
+
+.poke-max-card .status li:nth-child(5)
+    grid-area: spDef
+
+.poke-max-card .status li:nth-child(6)
+    grid-area: vel
+
+
+/* HOVER */
+
+.poke-max-card:hover
+    border: none
+    outline: .6px solid rgba(150, 150, 150, 1)
+    //animation
+    animation: changeBackground .5s linear forwards
+    // animation-play-state: paused
+
+.poke-max-card:hover img
+    //s
+    border-radius: 50%
+    //c
+    opacity: 1
+    //l
+    top: 0px
+    right: 0.1px
+    //animation
+    animation: shrink .2s linear forwards
+
+.poke-max-card:hover .name
+    opacity: 1
+    top: 0px
+    left: 0.1px
+
+.poke-max-card:hover .status
+    opacity: 1
+
+
+.poke-max-card:hover .pokeid
+    opacity: 1
+    top: 25px
+    left: 0.1px
+
+/* Animations */
+
+@keyframes shrink 
+    0% 
+        width: 170px
+        height: 170px
+    100% 
+        width: 100px
+        height: 100px
+
+@keyframes changeBackground 
+    0% 
+        background: white
+    100% 
+        background: rgba(166, 166, 166, .8)
+    

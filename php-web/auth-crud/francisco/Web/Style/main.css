@@ -1,0 +1,441 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain) */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+
+button,
+input {
+  overflow: visible;
+}
+
+button,
+select {
+  text-transform: none;
+}
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+button {
+  border: 0;
+}
+
+main p {
+  text-align: center;
+}
+
+header ul li {
+  text-align: center;
+}
+
+/* index.php */
+.index-card-button-trainer {
+  font-size: 13px;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background: #e1f0ef;
+}
+
+main {
+  width: 80%;
+  min-height: 80vh;
+  min-width: 800px;
+  max-width: 1440px;
+  background: white;
+  margin: 0 auto;
+}
+
+.cards {
+  width: 80%;
+  min-height: 80vh;
+  min-width: 800px;
+  max-width: 1040px;
+  padding-top: 20px;
+  background: white;
+  margin: 0 auto;
+}
+
+@media (min-width: 600px) {
+  .cards {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(205px, auto))[auto-fit];
+        grid-template-columns: repeat(auto-fit, minmax(205px, auto));
+  }
+}
+
+.index-card-trainer {
+  min-width: 200px;
+  height: 130px;
+  padding: 20px;
+  margin: 0 5px;
+  border: solid 1px black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.index-card-min-poke {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.index-card-trainer-button {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+
+.index-card-trainer-button:hover {
+  background: #d0aaaa;
+}
+
+.index-card-trainer-button:active {
+  background: #f79694;
+}
+
+.index-card-trainer-button:focus {
+  outline: 0;
+}
+
+.signup-form {
+  min-width: 500px;
+  background: #ddd;
+  padding: 50px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.signup-form div {
+  padding: 10px;
+  padding-bottom: 50px;
+}
+
+.signup-form button {
+  background: #b0cce8;
+  outline: 0;
+}
+
+.signup-form button:hover {
+  background: #7294b5;
+}
+
+.signup-form button:focus {
+  background: #487785;
+}
+
+.poke-max-card {
+  min-width: 200px;
+  min-height: 250px;
+  border: 0.5px solid rgba(227, 227, 227, 0.7);
+  margin: 10px auto;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.poke-max-card img {
+  width: 170px;
+  height: 170px;
+  margin: 0 auto;
+  position: absolute;
+}
+
+.poke-max-card div {
+  width: 100px;
+  padding: 3px;
+  background: black;
+  color: white;
+  opacity: 0;
+  position: absolute;
+}
+
+.poke-max-card .status {
+  width: 95%;
+  opacity: 0;
+  position: absolute;
+  bottom: 30px;
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "hp vel" "att def" "spAtt spDef";
+}
+
+.poke-max-card .status li {
+  background: black;
+  color: white;
+  margin: 3px;
+}
+
+.poke-max-card .status li:first-child {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: hp;
+}
+
+.poke-max-card .status li:nth-child(2) {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: att;
+}
+
+.poke-max-card .status li:nth-child(3) {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: def;
+}
+
+.poke-max-card .status li:nth-child(4) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: spAtt;
+}
+
+.poke-max-card .status li:nth-child(5) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 2;
+  grid-area: spDef;
+}
+
+.poke-max-card .status li:nth-child(6) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: vel;
+}
+
+/* HOVER */
+.poke-max-card:hover {
+  border: none;
+  outline: 0.6px solid #969696;
+  -webkit-animation: changeBackground .5s linear forwards;
+          animation: changeBackground .5s linear forwards;
+}
+
+.poke-max-card:hover img {
+  border-radius: 50%;
+  opacity: 1;
+  top: 0px;
+  right: 0.1px;
+  -webkit-animation: shrink .2s linear forwards;
+          animation: shrink .2s linear forwards;
+}
+
+.poke-max-card:hover .name {
+  opacity: 1;
+  top: 0px;
+  left: 0.1px;
+}
+
+.poke-max-card:hover .status {
+  opacity: 1;
+}
+
+.poke-max-card:hover .pokeid {
+  opacity: 1;
+  top: 25px;
+  left: 0.1px;
+}
+
+/* Animations */
+@-webkit-keyframes shrink {
+  0% {
+    width: 170px;
+    height: 170px;
+  }
+  100% {
+    width: 100px;
+    height: 100px;
+  }
+}
+@keyframes shrink {
+  0% {
+    width: 170px;
+    height: 170px;
+  }
+  100% {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@-webkit-keyframes changeBackground {
+  0% {
+    background: white;
+  }
+  100% {
+    background: rgba(166, 166, 166, 0.8);
+  }
+}
+
+@keyframes changeBackground {
+  0% {
+    background: white;
+  }
+  100% {
+    background: rgba(166, 166, 166, 0.8);
+  }
+}
+
+header {
+  width: 80%;
+  height: 15vh;
+  min-width: 800px;
+  max-width: 1440px;
+  min-height: 100px;
+  max-height: 150px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+/**/
+header ul {
+  width: 30%;
+  max-width: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header ul li {
+  width: 33%;
+  max-width: 105px;
+}
+
+/**/
+header div {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "form form form form form" ". . . . signup";
+}
+
+header div a {
+  -ms-grid-row: 2;
+  -ms-grid-column: 5;
+  grid-area: signup;
+}
+
+/**/
+header div form {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 5;
+  grid-area: form;
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "email email password password button";
+}
+
+header div form input {
+  margin: 5px;
+  padding: 5px;
+  border: none;
+}
+
+header div form div:first-child {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: email;
+}
+
+header div form div:nth-child(2) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 2;
+  grid-area: password;
+}
+
+header div form button {
+  max-height: 28px;
+  margin-top: 5px;
+  -ms-grid-row: 1;
+  -ms-grid-column: 5;
+  grid-area: button;
+}
+/*# sourceMappingURL=main.css.map */

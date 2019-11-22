@@ -1,0 +1,1512 @@
+[
+  {
+    "id": 1,
+    "nome": "Bulbasaur",
+    "hp": 45,
+    "ataque": 49,
+    "defesa": 49,
+    "spAtaque": 65,
+    "spDefesa": 65,
+    "velocidade": 45
+  },
+  {
+    "id": 2,
+    "nome": "Ivysaur",
+    "hp": 60,
+    "ataque": 62,
+    "defesa": 63,
+    "spAtaque": 80,
+    "spDefesa": 80,
+    "velocidade": 60
+  },
+  {
+    "id": 3,
+    "nome": "Venusaur",
+    "hp": 80,
+    "ataque": 82,
+    "defesa": 83,
+    "spAtaque": 100,
+    "spDefesa": 100,
+    "velocidade": 80
+  },
+  {
+    "id": 4,
+    "nome": "Charmander",
+    "hp": 39,
+    "ataque": 52,
+    "defesa": 43,
+    "spAtaque": 60,
+    "spDefesa": 50,
+    "velocidade": 65
+  },
+  {
+    "id": 5,
+    "nome": "Charmeleon",
+    "hp": 58,
+    "ataque": 64,
+    "defesa": 58,
+    "spAtaque": 80,
+    "spDefesa": 65,
+    "velocidade": 80
+  },
+  {
+    "id": 6,
+    "nome": "Charizard",
+    "hp": 78,
+    "ataque": 84,
+    "defesa": 78,
+    "spAtaque": 109,
+    "spDefesa": 85,
+    "velocidade": 100
+  },
+  {
+    "id": 7,
+    "nome": "Squirtle",
+    "hp": 44,
+    "ataque": 48,
+    "defesa": 65,
+    "spAtaque": 50,
+    "spDefesa": 64,
+    "velocidade": 43
+  },
+  {
+    "id": 8,
+    "nome": "Wartortle",
+    "hp": 59,
+    "ataque": 63,
+    "defesa": 80,
+    "spAtaque": 65,
+    "spDefesa": 80,
+    "velocidade": 58
+  },
+  {
+    "id": 9,
+    "nome": "Blastoise",
+    "hp": 79,
+    "ataque": 83,
+    "defesa": 100,
+    "spAtaque": 85,
+    "spDefesa": 105,
+    "velocidade": 78
+  },
+  {
+    "id": 10,
+    "nome": "Caterpie",
+    "hp": 45,
+    "ataque": 30,
+    "defesa": 35,
+    "spAtaque": 20,
+    "spDefesa": 20,
+    "velocidade": 45
+  },
+  {
+    "id": 11,
+    "nome": "Metapod",
+    "hp": 50,
+    "ataque": 20,
+    "defesa": 55,
+    "spAtaque": 25,
+    "spDefesa": 25,
+    "velocidade": 30
+  },
+  {
+    "id": 12,
+    "nome": "Butterfree",
+    "hp": 60,
+    "ataque": 45,
+    "defesa": 50,
+    "spAtaque": 90,
+    "spDefesa": 80,
+    "velocidade": 70
+  },
+  {
+    "id": 13,
+    "nome": "Weedle",
+    "hp": 40,
+    "ataque": 35,
+    "defesa": 30,
+    "spAtaque": 20,
+    "spDefesa": 20,
+    "velocidade": 50
+  },
+  {
+    "id": 14,
+    "nome": "Kakuna",
+    "hp": 45,
+    "ataque": 25,
+    "defesa": 50,
+    "spAtaque": 25,
+    "spDefesa": 25,
+    "velocidade": 35
+  },
+  {
+    "id": 15,
+    "nome": "Beedrill",
+    "hp": 65,
+    "ataque": 90,
+    "defesa": 40,
+    "spAtaque": 45,
+    "spDefesa": 80,
+    "velocidade": 75
+  },
+  {
+    "id": 16,
+    "nome": "Pidgey",
+    "hp": 40,
+    "ataque": 45,
+    "defesa": 40,
+    "spAtaque": 35,
+    "spDefesa": 35,
+    "velocidade": 56
+  },
+  {
+    "id": 17,
+    "nome": "Pidgeotto",
+    "hp": 63,
+    "ataque": 60,
+    "defesa": 55,
+    "spAtaque": 50,
+    "spDefesa": 50,
+    "velocidade": 71
+  },
+  {
+    "id": 18,
+    "nome": "Pidgeot",
+    "hp": 83,
+    "ataque": 80,
+    "defesa": 75,
+    "spAtaque": 70,
+    "spDefesa": 70,
+    "velocidade": 101
+  },
+  {
+    "id": 19,
+    "nome": "Rattata",
+    "hp": 30,
+    "ataque": 56,
+    "defesa": 35,
+    "spAtaque": 25,
+    "spDefesa": 35,
+    "velocidade": 72
+  },
+  {
+    "id": 20,
+    "nome": "Raticate",
+    "hp": 55,
+    "ataque": 81,
+    "defesa": 60,
+    "spAtaque": 50,
+    "spDefesa": 70,
+    "velocidade": 97
+  },
+  {
+    "id": 21,
+    "nome": "Spearow",
+    "hp": 40,
+    "ataque": 60,
+    "defesa": 30,
+    "spAtaque": 31,
+    "spDefesa": 31,
+    "velocidade": 70
+  },
+  {
+    "id": 22,
+    "nome": "Fearow",
+    "hp": 65,
+    "ataque": 90,
+    "defesa": 65,
+    "spAtaque": 61,
+    "spDefesa": 61,
+    "velocidade": 100
+  },
+  {
+    "id": 23,
+    "nome": "Ekans",
+    "hp": 35,
+    "ataque": 60,
+    "defesa": 44,
+    "spAtaque": 40,
+    "spDefesa": 54,
+    "velocidade": 55
+  },
+  {
+    "id": 24,
+    "nome": "Arbok",
+    "hp": 60,
+    "ataque": 95,
+    "defesa": 69,
+    "spAtaque": 65,
+    "spDefesa": 79,
+    "velocidade": 80
+  },
+  {
+    "id": 25,
+    "nome": "Pikachu",
+    "hp": 35,
+    "ataque": 55,
+    "defesa": 40,
+    "spAtaque": 50,
+    "spDefesa": 50,
+    "velocidade": 90
+  },
+  {
+    "id": 26,
+    "nome": "Raichu",
+    "hp": 60,
+    "ataque": 90,
+    "defesa": 55,
+    "spAtaque": 90,
+    "spDefesa": 80,
+    "velocidade": 110
+  },
+  {
+    "id": 27,
+    "nome": "Sandshrew",
+    "hp": 50,
+    "ataque": 75,
+    "defesa": 85,
+    "spAtaque": 20,
+    "spDefesa": 30,
+    "velocidade": 40
+  },
+  {
+    "id": 28,
+    "nome": "Sandslash",
+    "hp": 75,
+    "ataque": 100,
+    "defesa": 110,
+    "spAtaque": 45,
+    "spDefesa": 55,
+    "velocidade": 65
+  },
+  {
+    "id": 29,
+    "nome": "Nidoran",
+    "hp": 55,
+    "ataque": 47,
+    "defesa": 52,
+    "spAtaque": 40,
+    "spDefesa": 40,
+    "velocidade": 41
+  },
+  {
+    "id": 30,
+    "nome": "Nidorina",
+    "hp": 70,
+    "ataque": 62,
+    "defesa": 67,
+    "spAtaque": 55,
+    "spDefesa": 55,
+    "velocidade": 56
+  },
+  {
+    "id": 31,
+    "nome": "Nidoqueen",
+    "hp": 90,
+    "ataque": 92,
+    "defesa": 87,
+    "spAtaque": 75,
+    "spDefesa": 85,
+    "velocidade": 76
+  },
+  {
+    "id": 32,
+    "nome": "Nidoran",
+    "hp": 46,
+    "ataque": 57,
+    "defesa": 40,
+    "spAtaque": 40,
+    "spDefesa": 40,
+    "velocidade": 50
+  },
+  {
+    "id": 33,
+    "nome": "Nidorino",
+    "hp": 61,
+    "ataque": 72,
+    "defesa": 57,
+    "spAtaque": 55,
+    "spDefesa": 55,
+    "velocidade": 65
+  },
+  {
+    "id": 34,
+    "nome": "Nidoking",
+    "hp": 81,
+    "ataque": 102,
+    "defesa": 77,
+    "spAtaque": 85,
+    "spDefesa": 75,
+    "velocidade": 85
+  },
+  {
+    "id": 35,
+    "nome": "Clefairy",
+    "hp": 70,
+    "ataque": 45,
+    "defesa": 48,
+    "spAtaque": 60,
+    "spDefesa": 65,
+    "velocidade": 35
+  },
+  {
+    "id": 36,
+    "nome": "Clefable",
+    "hp": 95,
+    "ataque": 70,
+    "defesa": 73,
+    "spAtaque": 95,
+    "spDefesa": 90,
+    "velocidade": 60
+  },
+  {
+    "id": 37,
+    "nome": "Vulpix",
+    "hp": 38,
+    "ataque": 41,
+    "defesa": 40,
+    "spAtaque": 50,
+    "spDefesa": 65,
+    "velocidade": 65
+  },
+  {
+    "id": 38,
+    "nome": "Ninetales",
+    "hp": 73,
+    "ataque": 76,
+    "defesa": 75,
+    "spAtaque": 81,
+    "spDefesa": 100,
+    "velocidade": 100
+  },
+  {
+    "id": 39,
+    "nome": "Jigglypuff",
+    "hp": 115,
+    "ataque": 45,
+    "defesa": 20,
+    "spAtaque": 45,
+    "spDefesa": 25,
+    "velocidade": 20
+  },
+  {
+    "id": 40,
+    "nome": "Wigglytuff",
+    "hp": 140,
+    "ataque": 70,
+    "defesa": 45,
+    "spAtaque": 85,
+    "spDefesa": 50,
+    "velocidade": 45
+  },
+  {
+    "id": 41,
+    "nome": "Zubat",
+    "hp": 40,
+    "ataque": 45,
+    "defesa": 35,
+    "spAtaque": 30,
+    "spDefesa": 40,
+    "velocidade": 55
+  },
+  {
+    "id": 42,
+    "nome": "Golbat",
+    "hp": 75,
+    "ataque": 80,
+    "defesa": 70,
+    "spAtaque": 65,
+    "spDefesa": 75,
+    "velocidade": 90
+  },
+  {
+    "id": 43,
+    "nome": "Oddish",
+    "hp": 45,
+    "ataque": 50,
+    "defesa": 55,
+    "spAtaque": 75,
+    "spDefesa": 65,
+    "velocidade": 30
+  },
+  {
+    "id": 44,
+    "nome": "Gloom",
+    "hp": 60,
+    "ataque": 65,
+    "defesa": 70,
+    "spAtaque": 85,
+    "spDefesa": 75,
+    "velocidade": 40
+  },
+  {
+    "id": 45,
+    "nome": "Vileplume",
+    "hp": 75,
+    "ataque": 80,
+    "defesa": 85,
+    "spAtaque": 110,
+    "spDefesa": 90,
+    "velocidade": 50
+  },
+  {
+    "id": 46,
+    "nome": "Paras",
+    "hp": 35,
+    "ataque": 70,
+    "defesa": 55,
+    "spAtaque": 45,
+    "spDefesa": 55,
+    "velocidade": 25
+  },
+  {
+    "id": 47,
+    "nome": "Parasect",
+    "hp": 60,
+    "ataque": 95,
+    "defesa": 80,
+    "spAtaque": 60,
+    "spDefesa": 80,
+    "velocidade": 30
+  },
+  {
+    "id": 48,
+    "nome": "Venonat",
+    "hp": 60,
+    "ataque": 55,
+    "defesa": 50,
+    "spAtaque": 40,
+    "spDefesa": 55,
+    "velocidade": 45
+  },
+  {
+    "id": 49,
+    "nome": "Venomoth",
+    "hp": 70,
+    "ataque": 65,
+    "defesa": 60,
+    "spAtaque": 90,
+    "spDefesa": 75,
+    "velocidade": 90
+  },
+  {
+    "id": 50,
+    "nome": "Diglett",
+    "hp": 10,
+    "ataque": 55,
+    "defesa": 25,
+    "spAtaque": 35,
+    "spDefesa": 45,
+    "velocidade": 95
+  },
+  {
+    "id": 51,
+    "nome": "Dugtrio",
+    "hp": 35,
+    "ataque": 100,
+    "defesa": 50,
+    "spAtaque": 50,
+    "spDefesa": 70,
+    "velocidade": 120
+  },
+  {
+    "id": 52,
+    "nome": "Meowth",
+    "hp": 40,
+    "ataque": 45,
+    "defesa": 35,
+    "spAtaque": 40,
+    "spDefesa": 40,
+    "velocidade": 90
+  },
+  {
+    "id": 53,
+    "nome": "Persian",
+    "hp": 65,
+    "ataque": 70,
+    "defesa": 60,
+    "spAtaque": 65,
+    "spDefesa": 65,
+    "velocidade": 115
+  },
+  {
+    "id": 54,
+    "nome": "Psyduck",
+    "hp": 50,
+    "ataque": 52,
+    "defesa": 48,
+    "spAtaque": 65,
+    "spDefesa": 50,
+    "velocidade": 55
+  },
+  {
+    "id": 55,
+    "nome": "Golduck",
+    "hp": 80,
+    "ataque": 82,
+    "defesa": 78,
+    "spAtaque": 95,
+    "spDefesa": 80,
+    "velocidade": 85
+  },
+  {
+    "id": 56,
+    "nome": "Mankey",
+    "hp": 40,
+    "ataque": 80,
+    "defesa": 35,
+    "spAtaque": 35,
+    "spDefesa": 45,
+    "velocidade": 70
+  },
+  {
+    "id": 57,
+    "nome": "Primeape",
+    "hp": 65,
+    "ataque": 105,
+    "defesa": 60,
+    "spAtaque": 60,
+    "spDefesa": 70,
+    "velocidade": 95
+  },
+  {
+    "id": 58,
+    "nome": "Growlithe",
+    "hp": 55,
+    "ataque": 70,
+    "defesa": 45,
+    "spAtaque": 70,
+    "spDefesa": 50,
+    "velocidade": 60
+  },
+  {
+    "id": 59,
+    "nome": "Arcanine",
+    "hp": 90,
+    "ataque": 110,
+    "defesa": 80,
+    "spAtaque": 100,
+    "spDefesa": 80,
+    "velocidade": 95
+  },
+  {
+    "id": 60,
+    "nome": "Poliwag",
+    "hp": 40,
+    "ataque": 50,
+    "defesa": 40,
+    "spAtaque": 40,
+    "spDefesa": 40,
+    "velocidade": 90
+  },
+  {
+    "id": 61,
+    "nome": "Poliwhirl",
+    "hp": 65,
+    "ataque": 65,
+    "defesa": 65,
+    "spAtaque": 50,
+    "spDefesa": 50,
+    "velocidade": 90
+  },
+  {
+    "id": 62,
+    "nome": "Poliwrath",
+    "hp": 90,
+    "ataque": 95,
+    "defesa": 95,
+    "spAtaque": 70,
+    "spDefesa": 90,
+    "velocidade": 70
+  },
+  {
+    "id": 63,
+    "nome": "Abra",
+    "hp": 25,
+    "ataque": 20,
+    "defesa": 15,
+    "spAtaque": 105,
+    "spDefesa": 55,
+    "velocidade": 90
+  },
+  {
+    "id": 64,
+    "nome": "Kadabra",
+    "hp": 40,
+    "ataque": 35,
+    "defesa": 30,
+    "spAtaque": 120,
+    "spDefesa": 70,
+    "velocidade": 105
+  },
+  {
+    "id": 65,
+    "nome": "Alakazam",
+    "hp": 55,
+    "ataque": 50,
+    "defesa": 45,
+    "spAtaque": 135,
+    "spDefesa": 95,
+    "velocidade": 120
+  },
+  {
+    "id": 66,
+    "nome": "Machop",
+    "hp": 70,
+    "ataque": 80,
+    "defesa": 50,
+    "spAtaque": 35,
+    "spDefesa": 35,
+    "velocidade": 35
+  },
+  {
+    "id": 67,
+    "nome": "Machoke",
+    "hp": 80,
+    "ataque": 100,
+    "defesa": 70,
+    "spAtaque": 50,
+    "spDefesa": 60,
+    "velocidade": 45
+  },
+  {
+    "id": 68,
+    "nome": "Machamp",
+    "hp": 90,
+    "ataque": 130,
+    "defesa": 80,
+    "spAtaque": 65,
+    "spDefesa": 85,
+    "velocidade": 55
+  },
+  {
+    "id": 69,
+    "nome": "Bellsprout",
+    "hp": 50,
+    "ataque": 75,
+    "defesa": 35,
+    "spAtaque": 70,
+    "spDefesa": 30,
+    "velocidade": 40
+  },
+  {
+    "id": 70,
+    "nome": "Weepinbell",
+    "hp": 65,
+    "ataque": 90,
+    "defesa": 50,
+    "spAtaque": 85,
+    "spDefesa": 45,
+    "velocidade": 55
+  },
+  {
+    "id": 71,
+    "nome": "Victreebel",
+    "hp": 80,
+    "ataque": 105,
+    "defesa": 65,
+    "spAtaque": 100,
+    "spDefesa": 70,
+    "velocidade": 70
+  },
+  {
+    "id": 72,
+    "nome": "Tentacool",
+    "hp": 40,
+    "ataque": 40,
+    "defesa": 35,
+    "spAtaque": 50,
+    "spDefesa": 100,
+    "velocidade": 70
+  },
+  {
+    "id": 73,
+    "nome": "Tentacruel",
+    "hp": 80,
+    "ataque": 70,
+    "defesa": 65,
+    "spAtaque": 80,
+    "spDefesa": 120,
+    "velocidade": 100
+  },
+  {
+    "id": 74,
+    "nome": "Geodude",
+    "hp": 40,
+    "ataque": 80,
+    "defesa": 100,
+    "spAtaque": 30,
+    "spDefesa": 30,
+    "velocidade": 20
+  },
+  {
+    "id": 75,
+    "nome": "Graveler",
+    "hp": 55,
+    "ataque": 95,
+    "defesa": 115,
+    "spAtaque": 45,
+    "spDefesa": 45,
+    "velocidade": 35
+  },
+  {
+    "id": 76,
+    "nome": "Golem",
+    "hp": 80,
+    "ataque": 120,
+    "defesa": 130,
+    "spAtaque": 55,
+    "spDefesa": 65,
+    "velocidade": 45
+  },
+  {
+    "id": 77,
+    "nome": "Ponyta",
+    "hp": 50,
+    "ataque": 85,
+    "defesa": 55,
+    "spAtaque": 65,
+    "spDefesa": 65,
+    "velocidade": 90
+  },
+  {
+    "id": 78,
+    "nome": "Rapidash",
+    "hp": 65,
+    "ataque": 100,
+    "defesa": 70,
+    "spAtaque": 80,
+    "spDefesa": 80,
+    "velocidade": 105
+  },
+  {
+    "id": 79,
+    "nome": "Slowpoke",
+    "hp": 90,
+    "ataque": 65,
+    "defesa": 65,
+    "spAtaque": 40,
+    "spDefesa": 40,
+    "velocidade": 15
+  },
+  {
+    "id": 80,
+    "nome": "Slowbro",
+    "hp": 95,
+    "ataque": 75,
+    "defesa": 110,
+    "spAtaque": 100,
+    "spDefesa": 80,
+    "velocidade": 30
+  },
+  {
+    "id": 81,
+    "nome": "Magnemite",
+    "hp": 25,
+    "ataque": 35,
+    "defesa": 70,
+    "spAtaque": 95,
+    "spDefesa": 55,
+    "velocidade": 45
+  },
+  {
+    "id": 82,
+    "nome": "Magneton",
+    "hp": 50,
+    "ataque": 60,
+    "defesa": 95,
+    "spAtaque": 120,
+    "spDefesa": 70,
+    "velocidade": 70
+  },
+  {
+    "id": 83,
+    "nome": "Farfetchd",
+    "hp": 52,
+    "ataque": 90,
+    "defesa": 55,
+    "spAtaque": 58,
+    "spDefesa": 62,
+    "velocidade": 60
+  },
+  {
+    "id": 84,
+    "nome": "Doduo",
+    "hp": 35,
+    "ataque": 85,
+    "defesa": 45,
+    "spAtaque": 35,
+    "spDefesa": 35,
+    "velocidade": 75
+  },
+  {
+    "id": 85,
+    "nome": "Dodrio",
+    "hp": 60,
+    "ataque": 110,
+    "defesa": 70,
+    "spAtaque": 60,
+    "spDefesa": 60,
+    "velocidade": 110
+  },
+  {
+    "id": 86,
+    "nome": "Seel",
+    "hp": 65,
+    "ataque": 45,
+    "defesa": 55,
+    "spAtaque": 45,
+    "spDefesa": 70,
+    "velocidade": 45
+  },
+  {
+    "id": 87,
+    "nome": "Dewgong",
+    "hp": 90,
+    "ataque": 70,
+    "defesa": 80,
+    "spAtaque": 70,
+    "spDefesa": 95,
+    "velocidade": 70
+  },
+  {
+    "id": 88,
+    "nome": "Grimer",
+    "hp": 80,
+    "ataque": 80,
+    "defesa": 50,
+    "spAtaque": 40,
+    "spDefesa": 50,
+    "velocidade": 25
+  },
+  {
+    "id": 89,
+    "nome": "Muk",
+    "hp": 105,
+    "ataque": 105,
+    "defesa": 75,
+    "spAtaque": 65,
+    "spDefesa": 100,
+    "velocidade": 50
+  },
+  {
+    "id": 90,
+    "nome": "Shellder",
+    "hp": 30,
+    "ataque": 65,
+    "defesa": 100,
+    "spAtaque": 45,
+    "spDefesa": 25,
+    "velocidade": 40
+  },
+  {
+    "id": 91,
+    "nome": "Cloyster",
+    "hp": 50,
+    "ataque": 95,
+    "defesa": 180,
+    "spAtaque": 85,
+    "spDefesa": 45,
+    "velocidade": 70
+  },
+  {
+    "id": 92,
+    "nome": "Gastly",
+    "hp": 30,
+    "ataque": 35,
+    "defesa": 30,
+    "spAtaque": 100,
+    "spDefesa": 35,
+    "velocidade": 80
+  },
+  {
+    "id": 93,
+    "nome": "Haunter",
+    "hp": 45,
+    "ataque": 50,
+    "defesa": 45,
+    "spAtaque": 115,
+    "spDefesa": 55,
+    "velocidade": 95
+  },
+  {
+    "id": 94,
+    "nome": "Gengar",
+    "hp": 60,
+    "ataque": 65,
+    "defesa": 60,
+    "spAtaque": 130,
+    "spDefesa": 75,
+    "velocidade": 110
+  },
+  {
+    "id": 95,
+    "nome": "Onix",
+    "hp": 35,
+    "ataque": 45,
+    "defesa": 160,
+    "spAtaque": 30,
+    "spDefesa": 45,
+    "velocidade": 70
+  },
+  {
+    "id": 96,
+    "nome": "Drowzee",
+    "hp": 60,
+    "ataque": 48,
+    "defesa": 45,
+    "spAtaque": 43,
+    "spDefesa": 90,
+    "velocidade": 42
+  },
+  {
+    "id": 97,
+    "nome": "Hypno",
+    "hp": 85,
+    "ataque": 73,
+    "defesa": 70,
+    "spAtaque": 73,
+    "spDefesa": 115,
+    "velocidade": 67
+  },
+  {
+    "id": 98,
+    "nome": "Krabby",
+    "hp": 30,
+    "ataque": 105,
+    "defesa": 90,
+    "spAtaque": 25,
+    "spDefesa": 25,
+    "velocidade": 50
+  },
+  {
+    "id": 99,
+    "nome": "Kingler",
+    "hp": 55,
+    "ataque": 130,
+    "defesa": 115,
+    "spAtaque": 50,
+    "spDefesa": 50,
+    "velocidade": 75
+  },
+  {
+    "id": 100,
+    "nome": "Voltorb",
+    "hp": 40,
+    "ataque": 30,
+    "defesa": 50,
+    "spAtaque": 55,
+    "spDefesa": 55,
+    "velocidade": 100
+  },
+  {
+    "id": 101,
+    "nome": "Electrode",
+    "hp": 60,
+    "ataque": 50,
+    "defesa": 70,
+    "spAtaque": 80,
+    "spDefesa": 80,
+    "velocidade": 150
+  },
+  {
+    "id": 102,
+    "nome": "Exeggcute",
+    "hp": 60,
+    "ataque": 40,
+    "defesa": 80,
+    "spAtaque": 60,
+    "spDefesa": 45,
+    "velocidade": 40
+  },
+  {
+    "id": 103,
+    "nome": "Exeggutor",
+    "hp": 95,
+    "ataque": 95,
+    "defesa": 85,
+    "spAtaque": 125,
+    "spDefesa": 75,
+    "velocidade": 55
+  },
+  {
+    "id": 104,
+    "nome": "Cubone",
+    "hp": 50,
+    "ataque": 50,
+    "defesa": 95,
+    "spAtaque": 40,
+    "spDefesa": 50,
+    "velocidade": 35
+  },
+  {
+    "id": 105,
+    "nome": "Marowak",
+    "hp": 60,
+    "ataque": 80,
+    "defesa": 110,
+    "spAtaque": 50,
+    "spDefesa": 80,
+    "velocidade": 45
+  },
+  {
+    "id": 106,
+    "nome": "Hitmonlee",
+    "hp": 50,
+    "ataque": 120,
+    "defesa": 53,
+    "spAtaque": 35,
+    "spDefesa": 110,
+    "velocidade": 87
+  },
+  {
+    "id": 107,
+    "nome": "Hitmonchan",
+    "hp": 50,
+    "ataque": 105,
+    "defesa": 79,
+    "spAtaque": 35,
+    "spDefesa": 110,
+    "velocidade": 76
+  },
+  {
+    "id": 108,
+    "nome": "Lickitung",
+    "hp": 90,
+    "ataque": 55,
+    "defesa": 75,
+    "spAtaque": 60,
+    "spDefesa": 75,
+    "velocidade": 30
+  },
+  {
+    "id": 109,
+    "nome": "Koffing",
+    "hp": 40,
+    "ataque": 65,
+    "defesa": 95,
+    "spAtaque": 60,
+    "spDefesa": 45,
+    "velocidade": 35
+  },
+  {
+    "id": 110,
+    "nome": "Weezing",
+    "hp": 65,
+    "ataque": 90,
+    "defesa": 120,
+    "spAtaque": 85,
+    "spDefesa": 70,
+    "velocidade": 60
+  },
+  {
+    "id": 111,
+    "nome": "Rhyhorn",
+    "hp": 80,
+    "ataque": 85,
+    "defesa": 95,
+    "spAtaque": 30,
+    "spDefesa": 30,
+    "velocidade": 25
+  },
+  {
+    "id": 112,
+    "nome": "Rhydon",
+    "hp": 105,
+    "ataque": 130,
+    "defesa": 120,
+    "spAtaque": 45,
+    "spDefesa": 45,
+    "velocidade": 40
+  },
+  {
+    "id": 113,
+    "nome": "Chansey",
+    "hp": 250,
+    "ataque": 5,
+    "defesa": 5,
+    "spAtaque": 35,
+    "spDefesa": 105,
+    "velocidade": 50
+  },
+  {
+    "id": 114,
+    "nome": "Tangela",
+    "hp": 65,
+    "ataque": 55,
+    "defesa": 115,
+    "spAtaque": 100,
+    "spDefesa": 40,
+    "velocidade": 60
+  },
+  {
+    "id": 115,
+    "nome": "Kangaskhan",
+    "hp": 105,
+    "ataque": 95,
+    "defesa": 80,
+    "spAtaque": 40,
+    "spDefesa": 80,
+    "velocidade": 90
+  },
+  {
+    "id": 116,
+    "nome": "Horsea",
+    "hp": 30,
+    "ataque": 40,
+    "defesa": 70,
+    "spAtaque": 70,
+    "spDefesa": 25,
+    "velocidade": 60
+  },
+  {
+    "id": 117,
+    "nome": "Seadra",
+    "hp": 55,
+    "ataque": 65,
+    "defesa": 95,
+    "spAtaque": 95,
+    "spDefesa": 45,
+    "velocidade": 85
+  },
+  {
+    "id": 118,
+    "nome": "Goldeen",
+    "hp": 45,
+    "ataque": 67,
+    "defesa": 60,
+    "spAtaque": 35,
+    "spDefesa": 50,
+    "velocidade": 63
+  },
+  {
+    "id": 119,
+    "nome": "Seaking",
+    "hp": 80,
+    "ataque": 92,
+    "defesa": 65,
+    "spAtaque": 65,
+    "spDefesa": 80,
+    "velocidade": 68
+  },
+  {
+    "id": 120,
+    "nome": "Staryu",
+    "hp": 30,
+    "ataque": 45,
+    "defesa": 55,
+    "spAtaque": 70,
+    "spDefesa": 55,
+    "velocidade": 85
+  },
+  {
+    "id": 121,
+    "nome": "Starmie",
+    "hp": 60,
+    "ataque": 75,
+    "defesa": 85,
+    "spAtaque": 100,
+    "spDefesa": 85,
+    "velocidade": 115
+  },
+  {
+    "id": 122,
+    "nome": "Mr. Mime",
+    "hp": 40,
+    "ataque": 45,
+    "defesa": 65,
+    "spAtaque": 100,
+    "spDefesa": 120,
+    "velocidade": 90
+  },
+  {
+    "id": 123,
+    "nome": "Scyther",
+    "hp": 70,
+    "ataque": 110,
+    "defesa": 80,
+    "spAtaque": 55,
+    "spDefesa": 80,
+    "velocidade": 105
+  },
+  {
+    "id": 124,
+    "nome": "Jynx",
+    "hp": 65,
+    "ataque": 50,
+    "defesa": 35,
+    "spAtaque": 115,
+    "spDefesa": 95,
+    "velocidade": 95
+  },
+  {
+    "id": 125,
+    "nome": "Electabuzz",
+    "hp": 65,
+    "ataque": 83,
+    "defesa": 57,
+    "spAtaque": 95,
+    "spDefesa": 85,
+    "velocidade": 105
+  },
+  {
+    "id": 126,
+    "nome": "Magmar",
+    "hp": 65,
+    "ataque": 95,
+    "defesa": 57,
+    "spAtaque": 100,
+    "spDefesa": 85,
+    "velocidade": 93
+  },
+  {
+    "id": 127,
+    "nome": "Pinsir",
+    "hp": 65,
+    "ataque": 125,
+    "defesa": 100,
+    "spAtaque": 55,
+    "spDefesa": 70,
+    "velocidade": 85
+  },
+  {
+    "id": 128,
+    "nome": "Tauros",
+    "hp": 75,
+    "ataque": 100,
+    "defesa": 95,
+    "spAtaque": 40,
+    "spDefesa": 70,
+    "velocidade": 110
+  },
+  {
+    "id": 129,
+    "nome": "Magikarp",
+    "hp": 20,
+    "ataque": 10,
+    "defesa": 55,
+    "spAtaque": 15,
+    "spDefesa": 20,
+    "velocidade": 80
+  },
+  {
+    "id": 130,
+    "nome": "Gyarados",
+    "hp": 95,
+    "ataque": 125,
+    "defesa": 79,
+    "spAtaque": 60,
+    "spDefesa": 100,
+    "velocidade": 81
+  },
+  {
+    "id": 131,
+    "nome": "Lapras",
+    "hp": 130,
+    "ataque": 85,
+    "defesa": 80,
+    "spAtaque": 85,
+    "spDefesa": 95,
+    "velocidade": 60
+  },
+  {
+    "id": 132,
+    "nome": "Ditto",
+    "hp": 48,
+    "ataque": 48,
+    "defesa": 48,
+    "spAtaque": 48,
+    "spDefesa": 48,
+    "velocidade": 48
+  },
+  {
+    "id": 133,
+    "nome": "Eevee",
+    "hp": 55,
+    "ataque": 55,
+    "defesa": 50,
+    "spAtaque": 45,
+    "spDefesa": 65,
+    "velocidade": 55
+  },
+  {
+    "id": 134,
+    "nome": "Vaporeon",
+    "hp": 130,
+    "ataque": 65,
+    "defesa": 60,
+    "spAtaque": 110,
+    "spDefesa": 95,
+    "velocidade": 65
+  },
+  {
+    "id": 135,
+    "nome": "Jolteon",
+    "hp": 65,
+    "ataque": 65,
+    "defesa": 60,
+    "spAtaque": 110,
+    "spDefesa": 95,
+    "velocidade": 130
+  },
+  {
+    "id": 136,
+    "nome": "Flareon",
+    "hp": 65,
+    "ataque": 130,
+    "defesa": 60,
+    "spAtaque": 95,
+    "spDefesa": 110,
+    "velocidade": 65
+  },
+  {
+    "id": 137,
+    "nome": "Porygon",
+    "hp": 65,
+    "ataque": 60,
+    "defesa": 70,
+    "spAtaque": 85,
+    "spDefesa": 75,
+    "velocidade": 40
+  },
+  {
+    "id": 138,
+    "nome": "Omanyte",
+    "hp": 35,
+    "ataque": 40,
+    "defesa": 100,
+    "spAtaque": 90,
+    "spDefesa": 55,
+    "velocidade": 35
+  },
+  {
+    "id": 139,
+    "nome": "Omastar",
+    "hp": 70,
+    "ataque": 60,
+    "defesa": 125,
+    "spAtaque": 115,
+    "spDefesa": 70,
+    "velocidade": 55
+  },
+  {
+    "id": 140,
+    "nome": "Kabuto",
+    "hp": 30,
+    "ataque": 80,
+    "defesa": 90,
+    "spAtaque": 55,
+    "spDefesa": 45,
+    "velocidade": 55
+  },
+  {
+    "id": 141,
+    "nome": "Kabutops",
+    "hp": 60,
+    "ataque": 115,
+    "defesa": 105,
+    "spAtaque": 65,
+    "spDefesa": 70,
+    "velocidade": 80
+  },
+  {
+    "id": 142,
+    "nome": "Aerodactyl",
+    "hp": 80,
+    "ataque": 105,
+    "defesa": 65,
+    "spAtaque": 60,
+    "spDefesa": 75,
+    "velocidade": 130
+  },
+  {
+    "id": 143,
+    "nome": "Snorlax",
+    "hp": 160,
+    "ataque": 110,
+    "defesa": 65,
+    "spAtaque": 65,
+    "spDefesa": 110,
+    "velocidade": 30
+  },
+  {
+    "id": 144,
+    "nome": "Articuno",
+    "hp": 90,
+    "ataque": 85,
+    "defesa": 100,
+    "spAtaque": 95,
+    "spDefesa": 125,
+    "velocidade": 85
+  },
+  {
+    "id": 145,
+    "nome": "Zapdos",
+    "hp": 90,
+    "ataque": 90,
+    "defesa": 85,
+    "spAtaque": 125,
+    "spDefesa": 90,
+    "velocidade": 100
+  },
+  {
+    "id": 146,
+    "nome": "Moltres",
+    "hp": 90,
+    "ataque": 100,
+    "defesa": 90,
+    "spAtaque": 125,
+    "spDefesa": 85,
+    "velocidade": 90
+  },
+  {
+    "id": 147,
+    "nome": "Dratini",
+    "hp": 41,
+    "ataque": 64,
+    "defesa": 45,
+    "spAtaque": 50,
+    "spDefesa": 50,
+    "velocidade": 50
+  },
+  {
+    "id": 148,
+    "nome": "Dragonair",
+    "hp": 61,
+    "ataque": 84,
+    "defesa": 65,
+    "spAtaque": 70,
+    "spDefesa": 70,
+    "velocidade": 70
+  },
+  {
+    "id": 149,
+    "nome": "Dragonite",
+    "hp": 91,
+    "ataque": 134,
+    "defesa": 95,
+    "spAtaque": 100,
+    "spDefesa": 100,
+    "velocidade": 80
+  },
+  {
+    "id": 150,
+    "nome": "Mewtwo",
+    "hp": 106,
+    "ataque": 110,
+    "defesa": 90,
+    "spAtaque": 154,
+    "spDefesa": 90,
+    "velocidade": 130
+  },
+  {
+    "id": 151,
+    "nome": "Mew",
+    "hp": 100,
+    "ataque": 100,
+    "defesa": 100,
+    "spAtaque": 100,
+    "spDefesa": 100,
+    "velocidade": 100
+  }
+]

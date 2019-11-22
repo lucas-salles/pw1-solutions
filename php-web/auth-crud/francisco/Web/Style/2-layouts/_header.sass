@@ -1,0 +1,64 @@
+header
+    //size
+    width: 80%
+    height: 15vh
+    min-width: 800px
+    max-width: 1440px
+    min-height: 100px
+    max-height: 150px
+    //layout
+    margin: 0 auto
+    display: flex
+    align-items: center
+    justify-content: space-around
+
+/**/
+
+header ul
+    //size
+    width: 30%
+    max-width: 300px
+    //layout
+    display: flex
+
+header ul li
+    //size
+    width: 33%
+    max-width: 105px
+
+/**/
+
+header div
+    //layout
+    display: grid
+    grid-template-areas: "form form form form form" ". . . . signup"
+
+header div a
+    grid-area: signup
+/**/
+
+header div form
+
+    //layout
+    grid-area: form
+    display: grid
+    grid-template-areas: "email email password password button"
+
+header div form input
+    //size
+    margin: 5px
+    padding: 5px
+    border: none
+
+header div form div:first-child
+    grid-area: email
+
+header div form div:nth-child(2)
+    grid-area: password
+
+header div form button
+    //size
+    max-height: 28px
+    //layout
+    margin-top: 5px
+    grid-area: button

@@ -1,0 +1,9 @@
+1) Criar um banco no postgres chamado pokedb
+2) Executar DB/schema.sql no postgres
+2) Executar DB/Img/insert_poke_img.php no wamp/docker (Povoar o banco com imagens)
+4) Cadastrar, gênero "M" ou "F
+
+6) wamp 
+extension=php_pgsql.dll
+extension=php_pdo_pgsql.dll
+extension=php_pdo_sqlite.dl

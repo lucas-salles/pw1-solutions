@@ -40,10 +40,9 @@
     <?php
         $banco = new Database();
         $read = $banco->readAll();
-        echo '<div class="container"><form action="removeAll.php" method="post"><table class="table">
+        echo '<div class="container"><table class="table">
         <thead>
           <tr>
-            <th scope="col"></th>
             <th scope="col">ID</th>
             <th scope="col">Name</th>
             <th scope="col">Address</th>
@@ -54,7 +53,6 @@
         <tbody>';
         foreach($read as $dns){
             echo "<tr>
-    <td><input name=[] type='checkbox' value=".$dns['id']."></input></td>
     <td>".$dns['id']."</td>
     <td>".$dns['name']."</td>
     <td>".$dns['address']."</td>
@@ -71,7 +69,7 @@
     </form>
 </tr>";
         }
-        echo '</form></table></tbody></div>';
+        echo '</table></tbody></div>';
 
     ?>
 
