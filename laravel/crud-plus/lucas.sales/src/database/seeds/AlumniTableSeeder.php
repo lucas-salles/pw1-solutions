@@ -36,6 +36,6 @@ class AlumniTableSeeder extends Seeder
         //     'linkedin' => 'https://www.linkedin.com/in/leandro-almeida-2601a611/'
         //     ]);
 
-        factory(Alumnus::class, 20)->create();
+        factory(Alumnus::class, 50)->create();
     }
 }

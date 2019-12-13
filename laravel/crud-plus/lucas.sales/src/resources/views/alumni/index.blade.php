@@ -23,15 +23,15 @@
     </tr>
   </thead>
   <tbody>
-    @foreach($alumni as $alumni)
+    @foreach($alumni as $alumnus)
     <tr>
-      <td>{{$alumni->id}}</td>
-      <td>{{$alumni->name}}</td>
-      <td>{{$alumni->email}}</td>
-      <td>{{$alumni->linkedin}}</td>
-      <td><a href="{{ route('alumni.edit', $alumni->id) }}" class="btn btn-primary" role="button">Edit</a></td>
+      <td>{{ $alumnus->id }}</td>
+      <td>{{ $alumnus->name }}</td>
+      <td>{{ $alumnus->email }}</td>
+      <td>{{ $alumnus->linkedin }}</td>
+      <td><a href="{{ route('alumni.edit', $alumnus->id) }}" class="btn btn-primary" role="button">Edit</a></td>
       <td>
-        <form action="{{ route('alumni.destroy', $alumni->id)}}" method="post">
+        <form action="{{ route('alumni.destroy', $alumnus->id)}}" method="post">
           @csrf
           @method('DELETE')
           <button class="btn btn-danger" type="submit">Delete</button>
@@ -41,5 +41,6 @@
     @endforeach
   </tbody>
 </table>
-<a href="{{ route('alumni.create') }}" class="btn btn-primary" role="button">Add alumnus</a>
+{{ $alumni->links() }}
+<a href="{{ route('alumni.create') }}" class="btn btn-primary mb-5" role="button">Add alumnus</a>
 @endsection
